@@ -7,3 +7,28 @@
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
+
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+
+
+.screaming-title {
+  height: 100vh;
+
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screaming-title-content {
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+  max-width: 75vw;
+  h1 {
+    font-size: 70px;
+  }
+  p {
+
+  }
+}
