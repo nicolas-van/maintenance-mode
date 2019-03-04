@@ -6,19 +6,5 @@ title: This website is down for maintenance
 <div class="screaming-title">
   <div class="screaming-title-content">
     <h1>This website is down for maintenance</h1>
-    <p id="info" hidden></p>
-    <script>
-    (() => {
-      "use strict";
-      
-      const ref = document.referrer;
-      const loc = "" + document.location;
-      
-      if (ref && ! ref.startsWith(loc) && ! loc.startsWith(ref)) {
-        document.querySelector("#info").hidden = false;
-        document.querySelector("#info").innerHTML = "<strong>" + ref + "</strong> is not currently available.";
-      }
-    })();
-    </script>
   </div>
 </div>
