@@ -12,12 +12,10 @@ title: This website is down for maintenance
       "use strict";
       
       if (document.referrer) {
-        document.querySelector("#id").hidden = false;
-        document.querySelector("#id").innerHTML = "<strong>" + document.referrer + "</strong> is not currently available.";
+        document.querySelector("#info").hidden = false;
+        document.querySelector("#info").innerHTML = "<strong>" + document.referrer + "</strong> is not currently available.";
       }
     })();
     </script>
-    <!--<p>Si toi aussi tu as des problèmes de connexion tape "Test Putain !"
-      dans Google et tu tomberas sur cette page.</p>-->
   </div>
 </div>
